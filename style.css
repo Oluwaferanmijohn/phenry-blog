@@ -9,6 +9,10 @@ html {
     font-size: 62.5%
 }
 
+body {
+    background-color: rgb(228, 228, 228);
+}
+
 @media (max-width:900px) {
     /* HEADER STARTS */
     header {
@@ -283,24 +287,34 @@ html {
         margin: 1em;
         font-size: 1.9em;
     }
+    .politics-container {
+        display: grid;
+        grid-template-columns: 15em 15em;
+        gap: 1em;
+        justify-content: center;
+    }
     .small-img {
-        margin-left: 1em;
-        width: 25rem;
-        height: 15rem;
+        width: 15rem;
+        height: 10rem;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
     }
     .section4-div {
         display: grid;
         grid-template-columns: 1fr;
-        margin: 1.5em 3.5em;
     }
     .section4-text {
-        background-color: rgb(224, 224, 224);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: rgb(255, 255, 255);
         border-bottom-left-radius: 1em;
         border-bottom-right-radius: 1em;
         text-align: center;
-        width: 25em;
-        margin-left: 1em;
+        width: 15em;
         padding-bottom: 0.6em;
+    }
+    .section4-text h4 {
+        text-transform: capitalize;
+        margin-top: 1em;
     }
     .more-news p a {
         color: red;
@@ -360,14 +374,15 @@ html {
         position: absolute;
         margin: 2rem;
         z-index: -2;
+        filter: blur(0.1em);
     }
     .celebrity-text {
+        background-color: rgba(7, 1, 1, 0.158);
         position: relative;
         top: 12em;
         left: 2em;
-        width: 28em;
+        width: 30em;
         color: white;
-        z-index: -1;
     }
     .celebrity-text h2,
     .celebrity-text p,
@@ -381,7 +396,8 @@ html {
         text-transform: capitalize;
     }
     .celebrity-div {
-        background-color: rgb(185, 185, 185);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding: 1em;
         margin: 1em;
         border-top-right-radius: 2em;
@@ -427,6 +443,7 @@ html {
         flex-direction: column;
         position: relative;
         width: 20rem;
+        background-color: white;
         margin: 1em;
         padding: .5em;
         border-radius: 10px;
