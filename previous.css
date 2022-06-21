@@ -1,0 +1,344 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* header css starts  */
+    
+    header {
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        overflow: hidden;
+    }
+    /* search starts */
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .search-btn {
+        margin-top: 15px !important;
+    }
+    /* Style the search field */
+    
+    form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+    /* Style the submit button */
+    
+    form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: black;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        /* Prevent double borders */
+        cursor: pointer;
+    }
+    
+    form.example button:hover {
+        background: black;
+    }
+    /* Clear floats */
+    
+    form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    /* search ends */
+    
+    .header-div1 {
+        display: flex;
+        margin-left: 20px;
+        gap: 380px;
+        text-transform: uppercase;
+    }
+    
+    .header-div2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    header nav ul {
+        border-top: 1px solid black;
+        list-style-type: none;
+    }
+    
+    header nav li {
+        float: left;
+    }
+    
+    header nav li a,
+    .dropbtn {
+        display: inline-block;
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+    
+    .active {
+        background-color: gray;
+        color: white;
+    }
+    
+    header nav li a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        min-width: 160px;
+        color: white;
+        box-shadow: 5px 8px 10px 0px grey;
+    }
+    
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    header nav h1,
+    header nav h2,
+    header nav h3 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    /* header css ends   */
+    /* main section starts  */
+    /* section 1 starts  */
+    
+    .section-head {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .section1 {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        gap: 10px;
+    }
+    
+    .section1-div1 {
+        background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(87, 65, 11, 0.836)), url(/img/14.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        color: white;
+        width: 300px;
+    }
+    
+    .section1-div-content1 h3 {
+        padding-top: 70px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    
+    .h3-1:hover {
+        font-size: 17px;
+    }
+    
+    .date-time-1 {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    
+    .section1-div2 {
+        background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(34, 25, 4, 0.925)), url(/img/7.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        color: white;
+        width: 700px;
+    }
+    
+    .h3-2 {
+        padding-top: 80px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    
+    .h3-2 :hover {
+        font-size: 20px;
+    }
+    
+    .date-time-2 {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    /* section 1 ends  */
+    /* section 2 starts  */
+    
+    .section2-header {
+        margin: 50px;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    
+    .section2 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    .section2-content1 {
+        position: absolute;
+        margin-left: 30px;
+    }
+    
+    .section2-content1 img {
+        border-radius: 20px;
+    }
+    
+    .section2 div p a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .section2-content2 {
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: left;
+        border-radius: 20px;
+        position: relative;
+        margin-top: 300px;
+        margin-left: 80px;
+        width: 700px;
+    }
+    
+    .section2-content2 div {
+        margin: 20px;
+    }
+    
+    .text2 {
+        text-transform: capitalize;
+    }
+    
+    .text2 a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .text2 :hover,
+    .more-news :hover,
+    .section2-content3-div :hover {
+        color: red;
+    }
+    
+    .section2-content3-div h3 a :hover {
+        color: red;
+    }
+    
+    .section2-content3 h4 {
+        text-transform: capitalize;
+    }
+    
+    .section2-content3-div h3 a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .section2-content3-div {
+        border-bottom: 1px rgb(218, 165, 32) solid;
+    }
+    /* section 2 ends  */
+    /* section 3 starts   */
+    
+    .section-header {
+        text-transform: capitalize;
+        margin: 50px;
+        font-size: 25px;
+    }
+    
+    .technology-content {
+        display: grid;
+        margin: 30px;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+    
+    .technology-content-div1 {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        width: 400px;
+        height: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .technology-content-div {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .more-news h3 {
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    .more-news h3 a {
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+    }
+    /* section 3 ends  */
+    /* section 4 starts  */
+    
+    .section4 {}
+    
+    .celebrity-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .celebrity-content1 {
+        display: flex;
+        border-bottom: 1px goldenrod solid;
+        width: 400px;
+    }
+    
+    .celebrity-content1 div {
+        margin-top: -25px;
+        margin-left: 20px;
+    }
+    /* section 4 ends  */
+    /* main section ends  */
