@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="fontawesome-free-5.15.1/css/all.css">
 
     <title>Home page</title>
@@ -19,21 +20,24 @@
             </div>
 
             <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-                <a href="#">HOME</a>
-                <a href="#celebrity">CELEBRITY</a>
-                <a href="#technology">TECHNOLOGY</a>
-                <a href="#politics">POLITICS</a>
-                <a href="#business">BUSINESS</a>
-                <a href="#music">MUSIC</a>
-                <a href="#">WORLD</a>
-                <a href="#">ENTERTAINMENT</a>
-                <a href="#">HEALTH</a>
-                <a href="#">SPORT</a>
-                <a href="#">EDUCATION</a>
-                <a href="#subscribe">SUBSCRIBE</a>
+                <span href="javascript:void(0)" onclick="closeNav()" class="closebtn material-symbols-outlined">close</span>
+                <ul>
+                    <li> <a href="#">HOME</a></li>
+                    <li><a href="#technology">TECHNOLOGY</a></li>
+                    <li><a href="#politics">POLITICS</a></li>
+                    <li><a href="#business">BUSINESS</a></li>
+                    <li> <a href="#music">MUSIC</a></li>
+                    <li><a href="#">WORLD</a></li>
+                    <li><a href="#">ENTERTAINMENT</a></li>
+                    <li> <a href="#">HEALTH</a></li>
+                    <li><a href="#">SPORT</a></li>
+                    <li> <a href="#">EDUCATION</a></li>
+                    <li><a href="#subscribe">SUBSCRIBE</a></li>
+                </ul>
+
             </div>
-            <button class="openbtn" onclick="openNav()">☰ </button>
+            <span class="material-symbols-outlined openbtn" onclick="openNav()">menu</span>
+
         </div>
         <div class="header-div2">
             <div class="box">

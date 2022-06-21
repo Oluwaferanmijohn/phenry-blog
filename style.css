@@ -79,12 +79,12 @@ body {
     /* for the search button ends */
     .sidebar {
         height: 100%;
+        z-index: 5;
         width: 0;
         position: fixed;
-        z-index: 2;
         top: 0;
         right: 0;
-        background-color: rgb(17, 17, 17);
+        background-color: rgba(0, 0, 0, 0.89);
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -94,8 +94,9 @@ body {
         text-decoration: none;
         font-size: 25px;
         color: #ffffff;
+        font-weight: 900;
         display: block;
-        transition: 0.3s;
+        transition: 0.2s;
     }
     .sidebar a:hover {
         color: #ff0000;
