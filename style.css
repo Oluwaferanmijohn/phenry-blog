@@ -194,10 +194,20 @@ body {
     .section1-div1 {
         margin: 0.4em;
         color: black;
-        border-bottom: 2px white solid;
     }
     .section1-div-content1 {
         color: white;
+        background-color: black;
+        margin: 0em 1em 0.5em 1em;
+        border-bottom-right-radius: 2em;
+        border-top-right-radius: 2em;
+        border-bottom-left-radius: 2em;
+        justify-content: center;
+        padding: 0.5em;
+    }
+    .trending-img {
+        margin: 0.6em;
+        justify-content: center;
     }
     .date-time-1 {
         margin-top: 1em;
