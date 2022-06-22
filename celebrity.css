@@ -122,4 +122,94 @@
                         font-size: 1.5em;
                         /* section1 ends*/
                     }
+                    /* section2 starts */
+                    .section2 {
+                        margin-top: 2em;
+                    }
+                    .section2-div1 h3 {
+                        color: red;
+                        font-size: 1.5em;
+                        text-transform: uppercase;
+                    }
+                    .section1-img1 {
+                        width: 9rem;
+                        height: 9rem;
+                    }
+                    .font-color {
+                        color: red;
+                        text-transform: capitalize;
+                        font-weight: 800;
+                    }
+                    .section1-div-2-div {
+                        display: grid;
+                        grid-template-columns: 10rem 23em;
+                        margin: 1em;
+                    }
+                    .section1-div-2-div div {
+                        text-align: center;
+                    }
+                    /* section2 ends */
+                    /* footer starts */
+                    footer {
+                        background-color: black;
+                        padding: 1em;
+                    }
+                    footer nav ul {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        gap: 1em;
+                    }
+                    footer nav ul a {
+                        text-decoration: none;
+                        list-style-type: none;
+                        color: white;
+                        font-family: fantasy;
+                        font-size: 1.3em;
+                    }
+                    .subscribe {
+                        display: flex;
+                        gap: 2em;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-bottom: 4em;
+                    }
+                    .subscribe p {
+                        color: rgb(255, 255, 255);
+                        text-transform: capitalize;
+                        font-size: 1.3em;
+                        text-align: center;
+                    }
+                    .subscribe div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 1em;
+                    }
+                    .subscribe div input {
+                        padding: 0.5em;
+                        border: none;
+                        background-color: rgb(197, 197, 197);
+                        color: white;
+                    }
+                    .subscribe div label button {
+                        padding: 0.5em;
+                        border: none;
+                        background-color: red;
+                        color: white;
+                        font-weight: 900;
+                        font-size: 1.6em;
+                    }
+                    .last-div {
+                        color: white;
+                        text-transform: capitalize;
+                        align-items: center;
+                        text-align: center;
+                        margin-top: 2em;
+                    }
+                    .last-div i a {
+                        color: red;
+                        text-decoration: none;
+                        font-weight: 900;
+                    }
+                    /* footer ends */
                 }
